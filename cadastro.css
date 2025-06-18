@@ -1,0 +1,37 @@
+body{
+    background-color: #040C17;
+    display: flex;
+    justify-content: center;
+
+}
+
+.cadastro{
+    display:flex;
+    align-items: center;
+    background-color: #fff;
+    flex-direction: column;
+    Width: 526px;
+    Height: 618px;
+}
+
+input{
+    border: solid 1px;
+    Width: 318px;
+    Height: 46px;
+}
+
+.cadastrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    width: 192px;
+    height: 46px;
+    background-color: #427ED7;
+    border: solid 1px;
+}
+
+.cadastrar a{
+    color: white;
+    text-decoration: none;
+}

@@ -27,31 +27,37 @@ body{
     background-color: #fff;
     Width:408px;
     Height: 415px;
-}
-
-.login h1{
     display: flex;
-    justify-content: center;
-}
-
-.caixa-texto{
-    display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
 }
 
-.caixa-texto input{
+input{
     border: solid 1px;
     Width: 318px;
     Height: 46px;
 }
 
-.caixa-texto p{
-    margin-right: 285px;
+
+.entrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 34px;
+    width: 192px;
+    height: 46px;
+    background-color: #427ED7;
+    border: solid 1px;
+
 }
 
-.nav{
-    
+.entrar a{
+    color: white;
+    text-decoration: none;
+}
+
+p a{
+    color: #001BC7;
 }
 
 
