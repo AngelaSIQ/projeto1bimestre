@@ -1,3 +1,49 @@
 body{
+    margin: 0px;
     background-color: #040C17;
+    
+}
+
+header{
+    width: 1280px;
+    height: 226px;
+    background-color: #042045;
+    display:flex;
+    flex-direction: row;
+}
+
+header img{
+    width: 224px;
+    height: 224px;
+}
+
+.titulo-link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 300px;
+    color: #fff;
+}
+
+.principal-header input{
+    width: 860px;
+    height: 40px;
+    border: solid 1px;
+    border-radius:25px;
+}
+
+nav a{
+    text-decoration: none;
+    color:#fff;
+    margin-right: 20px;
+}
+
+.saiba-mais{
+    width: 255px;
+    height: 73px;
+    background-color: #427ED7;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
 }
