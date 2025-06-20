@@ -4,7 +4,7 @@ body{
 }
 
 header{
-    width: 1280px;
+    width: 1900px;
     height: 226px;
     background-color: #042045;
     display:flex;
@@ -125,4 +125,10 @@ h2{
     display: flex;
     flex-direction: column;
     gap:20px
+}
+
+.banner{
+    width: 1900px;
+    height: 600px;
+    margin-top: 50px;
 }

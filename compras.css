@@ -71,26 +71,17 @@ main section{
     padding-top: 30px;
 }
 
-.informacoes{
-    display: flex;
-    gap:20px;
-    align-self: end;
-    margin-right: 200px;
-    margin-left: 200px;
-    align-items: first baseline
-}
-
-.informacoes input{
-    width:312px;
-    height: 36px;
-    background-color: #042045;
-    border: solid 1px white;
-}
-
 button{
      background-color: #427ED7;
      width: 172px;
      height: 48px;
      color:white;
      margin-top:30px
+}
+
+.imagens-compras{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows:200px 200px;
+   
 }

@@ -4,7 +4,7 @@ body{
 }
 
 header{
-    width: 1440px;
+    width: 1900px;
     height: 226px;
     background-color: #042045;
     display:flex;
@@ -64,8 +64,8 @@ main section{
     flex-direction: column;
     align-items: center;
     background-color:#042045;
-    width:909px;
-    height:485px;
+    width:1700px;
+    height:550px;
     margin:30px;
     color:white;
     padding-top: 30px;

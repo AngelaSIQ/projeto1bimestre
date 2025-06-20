@@ -1,0 +1,87 @@
+body{
+    margin: 0px;
+    background-color: #040C17;
+}
+
+header{
+    width: 1900px;
+    height: 226px;
+    background-color: #042045;
+    display:flex;
+    flex-direction: row;
+}
+
+header img{
+    width: 224px;
+    height: 224px;
+}
+
+.principal-header nav{
+    margin-top: 30px;
+}
+
+.titulo-link a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.titulo-link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 300px;
+    color: #fff;
+}
+
+.principal-header input{
+    width: 860px;
+    height: 40px;
+    border: solid 1px;
+    border-radius:25px;
+}
+
+nav a{
+    text-decoration: none;
+    color:#fff;
+    margin-right: 20px;
+}
+
+main nav{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+main{
+    display:flex;
+    flex-direction:row;
+}
+
+main section{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#042045;
+    width:1700px;
+    height:550px;
+    margin:30px;
+    color:white;
+    padding-top: 30px;
+}
+
+button{
+     background-color: #427ED7;
+     width: 172px;
+     height: 48px;
+     color:white;
+     margin-top:30px
+}
+
+.imagens-carrinho{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows:200px 200px;
+   
+}
