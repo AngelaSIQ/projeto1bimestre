@@ -1,7 +1,6 @@
 body{
     margin: 0px;
     background-color: #040C17;
-    
 }
 
 header{
@@ -12,9 +11,26 @@ header{
     flex-direction: row;
 }
 
+footer{
+    display:flex;
+    flex-direction: row;
+    color:#fff;
+    justify-content: center;
+    gap:100px
+}
+
 header img{
     width: 224px;
     height: 224px;
+}
+
+.principal-header nav{
+    margin-top: 30px;
+}
+
+.titulo-link a{
+    text-decoration: none;
+    color: #fff;
 }
 
 .titulo-link{
@@ -46,4 +62,67 @@ nav a{
     align-items: center;
     justify-content: center;
     border-radius: 50px;
+}
+
+.imagens{
+    border-radius: 100px;
+    display: flex;
+    gap:37px;
+}
+
+h2{
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.lojas{
+    margin:100px;
+}
+
+.links{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.links a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.botao-azul{
+    display: flex;
+    background-color: #427ED7;
+    width:85px;
+    height:57px;
+    align-items: center;
+    justify-content: center;
+}
+
+.email{
+    display: flex;
+    flex-direction: row;
+}
+
+.email input{
+    width: 400px;
+    height: 52px;
+}
+
+.redes-sociais{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: green;
+}
+
+.redes-sociais img{
+    width:100px;
+    height: 100px;
+}
+
+.input-redes{
+    display: flex;
+    flex-direction: column;
+    gap:20px
 }
