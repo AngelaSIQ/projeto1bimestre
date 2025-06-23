@@ -3,68 +3,85 @@ body{
     background-color: #040C17;
 }
 
+/*HEADER novo*/
 header{
     width: 1900px;
-    height: 226px;
+    height: 220px;
     background-color: #042045;
     display:flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
-footer{
-    display:flex;
-    flex-direction: row;
-    color:#fff;
-    justify-content: center;
-    gap:100px
+header a{
+    text-decoration: none;
+    color: white;
+    margin:40px;
+    margin-right: 70px;
 }
 
-header img{
-    width: 224px;
-    height: 224px;
+.header-conteudo img{
+    width: 220px;
+    height: 220px;
+    margin-left: 10px;
 }
 
 .principal-header nav{
     margin-top: 30px;
 }
 
-.titulo-link a{
-    text-decoration: none;
-    color: #fff;
-}
-
-.titulo-link{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 300px;
-    color: #fff;
-}
-
 .principal-header input{
-    width: 860px;
-    height: 40px;
+    width: 1000px;
+    height: 35px;
     border: solid 1px;
     border-radius:25px;
+}
+
+.principal-header h1{
+    color: white;
 }
 
 nav a{
     text-decoration: none;
     color:#fff;
-    margin-right: 20px;
+    margin: 30px;
+}
+
+.header-conteudo{
+    display: flex;
+    flex-direction: row;
+    gap:45px;
+}
+
+
+/*MAIN*/
+
+main{
+    margin-bottom: 100px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .saiba-mais{
-    width: 255px;
-    height: 73px;
-    background-color: #427ED7;
     display:flex;
     align-items: center;
     justify-content: center;
     border-radius: 50px;
+    width: 255px;
+    height: 73px;
+    background-color: #427ED7;
+}
+
+.saiba-mais a{
+    text-decoration: none;
+    color:white;
 }
 
 .imagens{
+    width: 200px;
+    height: 200px;
     border-radius: 100px;
     display: flex;
     gap:37px;
@@ -76,18 +93,31 @@ h2{
 }
 
 .lojas{
-    margin:100px;
-}
-
-.links{
-    display:flex;
+    display: flex;
     flex-direction: column;
-    gap:20px;
 }
 
-.links a{
-    text-decoration: none;
-    color: #fff;
+.banner-imagem{
+    width: 1600px;
+    height: 500px;
+}
+
+/*FOOTER*/
+
+footer{
+    display:flex;
+    flex-direction: row;
+    color:#fff;
+    justify-content: center;
+    gap:100px;
+    background-color: #042045;
+    padding:80px;
+}
+
+.input-redes{
+    display: flex;
+    flex-direction: column;
+    gap:20px
 }
 
 .botao-azul{
@@ -106,7 +136,7 @@ h2{
 
 .email input{
     width: 400px;
-    height: 52px;
+    height: 51px;
 }
 
 .redes-sociais{
@@ -121,14 +151,13 @@ h2{
     height: 100px;
 }
 
-.input-redes{
-    display: flex;
+.links{
+    display:flex;
     flex-direction: column;
-    gap:20px
+    gap:40px;
 }
 
-.banner{
-    width: 1900px;
-    height: 600px;
-    margin-top: 50px;
+.links a{
+    text-decoration: none;
+    color: #fff;
 }

@@ -1,0 +1,205 @@
+body{
+    margin: 0px;
+    background-color: #040C17;
+}
+
+/* HEADER novo */
+header{
+    width: 1900px;
+    height: 220px;
+    background-color: #042045;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    margin:40px;
+    margin-right: 70px;
+}
+
+.header-conteudo img{
+    width: 220px;
+    height: 220px;
+    margin-left: 10px;
+}
+
+.principal-header nav{
+    margin-top: 30px;
+}
+
+.principal-header input{
+    width: 1000px;
+    height: 35px;
+    border: solid 1px;
+    border-radius:25px;
+}
+
+.principal-header h1{
+    color: white;
+}
+
+nav a{
+    text-decoration: none;
+    color:#fff;
+    margin: 30px;
+}
+
+.header-conteudo{
+    display: flex;
+    flex-direction: row;
+    gap:45px;
+}
+
+/* MAIN */
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:80px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+
+}
+
+.display-grid{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px 300px;
+    grid-template-rows: 300px 300px;
+
+}
+
+.produto{
+    background-color: white;
+    border-radius: 20px;
+    width: 250px;
+    height: 270px;
+}
+
+.imagem-produto{
+    margin:20px;
+    margin-bottom: 0;
+    width:210px ;
+    height: 200px;
+}
+
+.detalhes-produto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+
+}
+
+.nome-preco p{
+    margin: 0;
+    color: black;
+    
+}
+
+.produto button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85px;
+    height: 30px;
+    background-color: #427ED7;
+    border-radius: 10px;
+    color:white;
+    
+}
+
+section h2{
+    color: white;
+}
+
+.texto-guia{
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+}
+
+.texto-guia p{
+    width: 700px;
+    height: 100px;
+}
+
+table{
+    color:violet;
+    width: 300px;
+    height: 200px;
+}
+
+.guia{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+
+
+
+/* FOOTER */
+
+footer{
+    display:flex;
+    flex-direction: row;
+    color:#fff;
+    justify-content: center;
+    gap:100px;
+    background-color:#042045;
+}
+
+.links{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.links a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.botao-azul{
+    display: flex;
+    background-color: #427ED7;
+    width:85px;
+    height:57px;
+    align-items: center;
+    justify-content: center;
+}
+
+.email{
+    display: flex;
+    flex-direction: row;
+}
+
+.email input{
+    width: 400px;
+    height: 52px;
+}
+
+.redes-sociais{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: green;
+}
+
+.redes-sociais img{
+    width:100px;
+    height: 100px;
+}
+
+.input-redes{
+    display: flex;
+    flex-direction: column;
+    gap:20px
+}
