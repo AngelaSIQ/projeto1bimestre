@@ -6,8 +6,12 @@ body{
 }
 
 .imagem-principal{
-    Width: 950px;
-    Height: 850px;
+    Width: 1500px;
+    height: 100vh;
+    background-image: url(img/login.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 10px;
 }
 
 .logo-login{
