@@ -3,7 +3,7 @@ body{
     background-color: #040C17;
 }
 
-/* HEADER novo */
+/*HEADER novo NOVO*/
 header{
     width: 1900px;
     height: 220px;
@@ -17,13 +17,12 @@ header a{
     text-decoration: none;
     color: white;
     margin:40px;
-    margin-right: 70px;
+    margin-right: 150px;
 }
 
 .header-conteudo img{
     width: 220px;
     height: 220px;
-    margin-left: 10px;
 }
 
 .principal-header nav{
@@ -44,7 +43,7 @@ header a{
 nav a{
     text-decoration: none;
     color:#fff;
-    margin: 30px;
+    margin: 40px;
     margin-left: 0px;
 }
 
@@ -52,6 +51,7 @@ nav a{
     display: flex;
     flex-direction: row;
     gap:45px;
+    margin-left: 150px;
 }
 
 /* MAIN */
@@ -111,6 +111,7 @@ main{
     background-color: #427ED7;
     border-radius: 10px;
     color:white;
+    border: none;
     
 }
 
@@ -132,9 +133,20 @@ section h2{
 }
 
 table{
-    color:violet;
+    color: white;
     width: 300px;
     height: 200px;
+    border-collapse: collapse;
+}
+
+table th{
+    background-color: #042045;
+}
+
+table td{
+    text-align: center;
+    background-color: white;
+    color: black;
 }
 
 .guia{
