@@ -47,7 +47,8 @@ nav a{
     text-decoration: none;
     color:#fff;
     margin: 40px;
-    margin-left: 0px;
+    margin-left: -10px;
+    padding: 10px;
 }
 
 .header-conteudo{
@@ -58,13 +59,13 @@ nav a{
 }
 
 /*header hover*/
-
 header nav a:hover{
     padding: 10px;
     border: 1px ridge #fff;
     border-radius: 16px;
 
 }
+
 
 /* MAIN */
 

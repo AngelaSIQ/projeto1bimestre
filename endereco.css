@@ -54,6 +54,15 @@ nav a{
     margin-left: 150px;
 }
 
+/*header hover*/
+
+header nav a:hover{
+    padding: 10px;
+    border: 1px ridge #fff;
+    border-radius: 16px;
+
+}
+
 
 /*MAIN*/
 

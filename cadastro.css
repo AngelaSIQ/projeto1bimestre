@@ -2,7 +2,7 @@ body{
     background-color: #040C17;
     display: flex;
     justify-content: center;
-
+    margin-top: 200px;
 }
 
 .cadastro{

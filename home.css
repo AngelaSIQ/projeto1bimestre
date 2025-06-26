@@ -69,9 +69,6 @@ header nav a:hover{
 
 }
 
-
-
-
 /*MAIN*/
 
 main{
@@ -129,6 +126,7 @@ h3{
     color:white;
     margin: 50px;
     margin-top: 0px;
+    align-items: center;
 }
 
 .banner-texto{
