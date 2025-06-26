@@ -3,8 +3,7 @@ body{
     background-color: #040C17;
 }
 
-/*HEADER novo*/
-
+/*HEADER novo NOVO*/
 header{
     width: 100%;
     height: 220px;
@@ -18,13 +17,12 @@ header a{
     text-decoration: none;
     color: white;
     margin:40px;
-    margin-right: 70px;
+    margin-right: 150px;
 }
 
 .header-conteudo img{
     width: 220px;
     height: 220px;
-    margin-left: 10px;
 }
 
 .principal-header nav{
@@ -45,7 +43,7 @@ header a{
 nav a{
     text-decoration: none;
     color:#fff;
-    margin: 30px;
+    margin: 40px;
     margin-left: 0px;
 }
 
@@ -53,6 +51,7 @@ nav a{
     display: flex;
     flex-direction: row;
     gap:45px;
+    margin-left: 150px;
 }
 
 
@@ -60,27 +59,34 @@ nav a{
 
 main nav{
     display: flex;
-    flex-direction: column;
     gap: 20px;
     margin-top: 40px;
-    margin-left: 30px;
 }
 
 main{
-    display:flex;
-    flex-direction:row;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 main section{
     display:flex;
     flex-direction: column;
     align-items: center;
-    background-color:#042045;
-    width:1700px;
-    height:550px;
+    width:600px;
+    height:500px;
     margin:30px;
     color:white;
     padding-top: 30px;
+}
+
+section input{
+    width:312px;
+    height: 36px;
+    border: solid 1px ;
+    border-radius: 25px;
+    padding-left: 10px;
+    margin-bottom: 30px;
 }
 
 button{
@@ -88,24 +94,20 @@ button{
      width: 172px;
      height: 48px;
      color:white;
-     margin-top:30px
+     margin-top:30px;
+     border-radius:25px;
+     border: none;
 }
 
-.informacoes{
-    display: flex;
-    gap:20px;
-    align-self: end;
-    margin-right: 200px;
-    margin-left: 200px;
-    align-items: first baseline
-}
+/*main hover*/
 
-.informacoes input{
-    width:312px;
-    height: 36px;
-    background-color: #042045;
-    border: solid 1px white;
+main nav a:hover{
+    padding: 10px;
+    border: 1px ridge #fff;
+    border-radius: 16px;
+
 }
 
 
 
+@media screen { max-width: 700px;}
