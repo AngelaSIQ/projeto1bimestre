@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 body{
     margin: 0px;
     background-color: #040C17;
+    font-family: IBM Plex Serif;
 }
 
 /*HEADER novo NOVO*/
@@ -63,6 +66,13 @@ header nav a:hover{
 
 }
 
+.seu-perfil:hover{
+    height: 20px;
+    padding: 10px;
+    border: 1px ridge #fff;
+    border-radius: 16px;
+}
+
 
 /*MAIN*/
 
@@ -119,4 +129,6 @@ main nav a:hover{
 
 
 
-@media screen { max-width: 700px;}
+@media (max-width: 700px){
+
+}
