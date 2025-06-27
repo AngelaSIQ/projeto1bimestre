@@ -94,6 +94,7 @@ main section{
     align-items: center;
     margin:30px;
     color:white;
+    margin-top: 0px;
 }
 
 section input{
