@@ -135,3 +135,9 @@ main nav a:hover{
     border-radius: 16px;
 
 }
+
+button:hover{
+    border: 2px solid white;
+    background-color: #042045;
+    color: white;
+}
